@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from "../Components/PageTitle";
-import ImageSection from "../Components/imageSection";
-import SkillsSection from "../Components/skillsSection";
+import ImageSection from "../Components/ImageSection";
+import SkillsSection from "../Components/SkillsSection";
 
 function AboutPage() {
     return (

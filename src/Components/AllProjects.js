@@ -2,6 +2,7 @@ import React from 'react';
 import Pathfinding from '../img/projectImages/Pathfinding.png';
 import Macaw from '../img/projectImages/macaw.png';
 import OfficeWebsite from '../img/projectImages/OfficeWebsite.png';
+import WeatherApp from '../img/projectImages/WeatherApp.png';
 
 const projects = [
     {
@@ -27,6 +28,14 @@ const projects = [
         image: OfficeWebsite,
         title: 'Office E-commerce Website',
         description: 'A simple e-commerce website I built using ASP.NET core MVC and bootstrap that has office products. It contains all the features that one would typically expect of a small e-commerce company. This project was great to improve my skills using ASP.NET with bootstrap.'
+    },
+    {
+        id: 4,
+        category: 'Javascript',
+        link: 'https://github.com/mpavich2/WeatherApp',
+        image: WeatherApp,
+        title: 'Weather App',
+        description: 'This is a simple weather app I built to learn react. It uses the Weather API from OpenWeather to get the weather data. The background image changes based on the city name entered. This is done by using the Pixabay API to get the image data. This was a fun app to make and was a great way to get experience with react and with using APIs.'
     }
 ];
 
