@@ -1,25 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Navbar from "./Components/Navbar";
+import {Switch, Route} from 'react-router-dom';
+import HomePage from "./Pages/HomePage";
+import AboutPage from "./Pages/AboutPage";
+import ProjectsPage from "./Pages/ProjectsPage";
+import ContactPage from "./Pages/ContactPage";
+import {useState} from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [navBarToggle, setNavBarToggle] = useState(false);
+
+    const navBarClick = () => {
+        setNavBarToggle(!navBarToggle);
+    }
+
+    return (
+        <div className="App">
+            <div className={`sidebar ${navBarToggle ? 'navBarToggle' : ''}`}>
+                <Navbar/>
+            </div>
+
+            <div className="navBtn" onClick={navBarClick}>
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+            </div>
+
+            <div className="mainContent">
+                <div className="content">
+                    <Switch>
+                        <Route path="/" exact>
+                            <HomePage/>
+                        </Route>
+                        <Route path="/about" exact>
+                            <AboutPage/>
+                        </Route>
+                        <Route path="/projects" exact>
+                            <ProjectsPage/>
+                        </Route>
+                        <Route path="/contact" exact>
+                            <ContactPage/>
+                        </Route>
+                    </Switch>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
