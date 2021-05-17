@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.61e7f5f4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c455436e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c455436e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.0dd55e35.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0dd55e35.js.map",
+    "static/js/2.ca78cbee.chunk.js": "/Portfolio/static/js/2.ca78cbee.chunk.js",
+    "static/js/2.ca78cbee.chunk.js.map": "/Portfolio/static/js/2.ca78cbee.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.61e7f5f4.chunk.css.map": "/Portfolio/static/css/main.61e7f5f4.chunk.css.map",
+    "static/js/2.ca78cbee.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ca78cbee.chunk.js.LICENSE.txt",
+    "static/media/OfficeWebsite.6b64c4af.png": "/Portfolio/static/media/OfficeWebsite.6b64c4af.png",
+    "static/media/WeatherApp.ce162f1f.png": "/Portfolio/static/media/WeatherApp.ce162f1f.png",
+    "static/media/about.d1973846.jpg": "/Portfolio/static/media/about.d1973846.jpg",
+    "static/media/App.scss": "/Portfolio/static/media/dots.9978678b.svg",
+    "static/media/emailme.a60657eb.svg": "/Portfolio/static/media/emailme.a60657eb.svg",
+    "static/media/location.5cd6776e.svg": "/Portfolio/static/media/location.5cd6776e.svg",
+    "static/media/macaw.fc83117c.png": "/Portfolio/static/media/macaw.fc83117c.png",
+    "static/media/phone.ef86e22a.svg": "/Portfolio/static/media/phone.ef86e22a.svg",
+    "static/media/profile.ac9290bf.jpg": "/Portfolio/static/media/profile.ac9290bf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dd55e35.js",
+    "static/js/2.ca78cbee.chunk.js",
+    "static/css/main.61e7f5f4.chunk.css",
+    "static/js/main.c455436e.chunk.js"
+  ]
+}
