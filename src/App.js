@@ -30,16 +30,16 @@ function App() {
             <div className="mainContent">
                 <div className="content">
                     <Switch>
-                        <Route path="/" exact>
+                        <Route path="/Portfolio/" exact>
                             <HomePage/>
                         </Route>
-                        <Route path="/about" exact>
+                        <Route path="/Portfolio/about" exact>
                             <AboutPage/>
                         </Route>
-                        <Route path="/projects" exact>
+                        <Route path="/Portfolio/projects" exact>
                             <ProjectsPage/>
                         </Route>
-                        <Route path="/contact" exact>
+                        <Route path="/Portfolio/contact" exact>
                             <ContactPage/>
                         </Route>
                     </Switch>
