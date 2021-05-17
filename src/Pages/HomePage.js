@@ -19,7 +19,7 @@ function HomePage() {
                     <a className="iconLink" href="https://github.com/mpavich2" target="_blank">
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                     </a>
-                    <a className="iconLink" href="https://www.linkedin.com/in/michael-pavich-a4bb5a20a" target="_blank">
+                    <a className="iconLink" href="https://www.linkedin.com/in/michael-pavich" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li"/>
                     </a>
                 </div>

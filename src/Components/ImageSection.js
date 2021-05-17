@@ -29,7 +29,7 @@ function ImageSection() {
                         <p>: Villa Rica, Georgia</p>
                     </div>
                 </div>
-                <Link to="./resource/MichaelPavichResume.docx" target="_blank" download>
+                <Link to="./resource/Michael_Pavich_Resume.pdf" target="_blank" download>
                     <button className="btn">Download Resume</button>
                 </Link>
             </div>
