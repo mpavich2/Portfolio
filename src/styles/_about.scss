@@ -66,6 +66,8 @@
   letter-spacing: 1px;
   margin-top: 1rem;
   position: relative;
+  text-decoration: inherit;
+  color:white;
 
   &::after {
     position: absolute;
@@ -86,4 +88,8 @@
 .skillsContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.btnContainer {
+  margin-top: 2.7rem;
 }

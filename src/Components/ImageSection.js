@@ -1,6 +1,6 @@
 import React from 'react';
 import about from '../img/about.jpg';
-import {Link} from 'react-router-dom';
+import Resume from '../resource/Michael_Pavich_Resume.pdf';
 
 function ImageSection() {
     return (
@@ -29,9 +29,9 @@ function ImageSection() {
                         <p>: Villa Rica, Georgia</p>
                     </div>
                 </div>
-                <Link to="./resource/Michael_Pavich_Resume.pdf" target="_blank" download>
-                    <button className="btn">Download Resume</button>
-                </Link>
+                <div className="btnContainer">
+                    <a className="btn" href={Resume} target="_blank" download>Download Resume</a>
+                </div>
             </div>
         </div>
     )
