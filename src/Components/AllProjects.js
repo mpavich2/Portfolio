@@ -1,4 +1,3 @@
-import React from 'react';
 import Pathfinding from '../img/projectImages/Pathfinding.png';
 import Macaw from '../img/projectImages/macaw.png';
 import OfficeWebsite from '../img/projectImages/OfficeWebsite.png';
