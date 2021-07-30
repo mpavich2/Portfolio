@@ -37,6 +37,12 @@ span {
   color: #037FFF;
 }
 
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 90%;
+  }
+}
+
 @media screen and (max-width: 411px) {
   html {
     font-size: 70%;
