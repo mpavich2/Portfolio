@@ -1,7 +1,7 @@
 import Pathfinding from '../img/projectImages/Pathfinding.png';
 import Macaw from '../img/projectImages/macaw.png';
 import OfficeWebsite from '../img/projectImages/OfficeWebsite.png';
-import WeatherApp from '../img/projectImages/WeatherApp.png';
+import ChromeExtension from '../img/projectImages/ChromeExtension.png';
 
 const projects = [
     {
@@ -31,10 +31,10 @@ const projects = [
     {
         id: 4,
         category: 'Javascript',
-        link: 'https://github.com/mpavich2/WeatherApp',
-        image: WeatherApp,
-        title: 'Weather App',
-        description: 'This is a simple weather app I built to learn react. It uses the Weather API from OpenWeather to get the weather data. The background image changes based on the city name entered. This is done by using the Pixabay API to get the image data. This was a fun app to make and was a great way to get experience with react and with using APIs.'
+        link: 'https://github.com/mpavich2/weather-chrome-extension',
+        image: ChromeExtension,
+        title: 'Weather Chrome Extension',
+        description: 'Simple and efficient extension to get all your weather information! It uses the Weather API from OpenWeather to get the weather data and LocationIQ for reverse geocoding. This was a fun project I made to apply the skills I learned from my internship.'
     }
 ];
 
